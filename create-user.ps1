@@ -13,4 +13,4 @@ For ($i=1; $i -lt 11; $i++) {
 
 <# To delete the create users #>
 
-<#For ($i=1; $i -lt 5; $i++) {Remove-LocalUser -Name "welcome"+$i}#>
+<#For ($i=1; $i -lt 5; $i++) {$user = "welcome"+$i; Remove-LocalUser -Name $user#>
