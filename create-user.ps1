@@ -4,7 +4,9 @@
    
 <# Requirement:
 
-   To create 10 users as JBOR1, JBOR2 .... JBOR10 on a Windows Machine, with random and unique passwords.
+   To create 10 users as JBOR1, JBOR2 .... JBOR10 on a Windows Machine, with random and unique passwords with 16 characters 
+   which contain 4 numerics. The script prints the passwords in sequence which can be later shared with the users. It is 
+   recommended to ask the users to change the passwords later.
    
 #>
 
